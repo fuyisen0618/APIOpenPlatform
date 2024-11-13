@@ -9,7 +9,7 @@ import com.fys.project.common.ErrorCode;
 import com.fys.project.common.ResultUtils;
 import com.fys.project.exception.BusinessException;
 import com.fys.project.model.dto.user.*;
-import com.fys.project.model.entity.User;
+import com.fys.ysapicommon.model.entity.User;
 import com.fys.project.model.vo.UserVO;
 import com.fys.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;

@@ -2,7 +2,7 @@ package com.fys.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.fys.project.model.entity.UserInterfaceInfo;
+import com.fys.ysapicommon.model.entity.UserInterfaceInfo;
 
 /**
 * @author fys
@@ -19,4 +19,6 @@ public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
      *统计接口调用次数
      **/
     boolean  invokeCount(long interfaceInfoId,long userId);
+
+    boolean existInvokeCount(long interfaceInfoId,long userId);
 }

@@ -1,7 +1,7 @@
 package com.fys.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.fys.project.model.entity.InterfaceInfo;
+import com.fys.ysapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author fys

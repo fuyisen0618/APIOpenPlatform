@@ -2,7 +2,7 @@ package com.fys.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.fys.project.model.entity.User;
+import com.fys.ysapicommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

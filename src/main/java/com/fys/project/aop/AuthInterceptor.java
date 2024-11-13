@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.fys.project.annotation.AuthCheck;
 import com.fys.project.common.ErrorCode;
 import com.fys.project.exception.BusinessException;
-import com.fys.project.model.entity.User;
 import com.fys.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
@@ -14,7 +13,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
-
+import com.fys.ysapicommon.model.entity.User;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Arrays;

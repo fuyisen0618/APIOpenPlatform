@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.fys.project.common.ErrorCode;
 import com.fys.project.exception.BusinessException;
 import com.fys.project.mapper.UserMapper;
-import com.fys.project.model.entity.User;
+import com.fys.ysapicommon.model.entity.User;
 import com.fys.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

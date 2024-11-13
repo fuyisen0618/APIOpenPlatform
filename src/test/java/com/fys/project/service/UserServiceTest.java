@@ -1,6 +1,6 @@
 package com.fys.project.service;
 
-import com.fys.project.model.entity.User;
+import com.fys.ysapicommon.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

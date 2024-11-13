@@ -10,8 +10,8 @@ import com.fys.project.model.dto.interfaceInfo.InterfaceInfoAddRequest;
 import com.fys.project.model.dto.interfaceInfo.InterfaceInfoInvokeRequest;
 import com.fys.project.model.dto.interfaceInfo.InterfaceInfoQueryRequest;
 import com.fys.project.model.dto.interfaceInfo.InterfaceInfoUpdateRequest;
-import com.fys.project.model.entity.InterfaceInfo;
-import com.fys.project.model.entity.User;
+import com.fys.ysapicommon.model.entity.InterfaceInfo;
+import com.fys.ysapicommon.model.entity.User;
 import com.fys.project.model.enums.InterfaceInfoStatusEnum;
 import com.fys.project.service.InterfaceInfoService;
 import com.fys.project.service.UserService;
@@ -25,7 +25,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * 接口管理
