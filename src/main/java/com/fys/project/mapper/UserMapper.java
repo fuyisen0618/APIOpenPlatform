@@ -8,6 +8,8 @@ import com.fys.ysapicommon.model.entity.User;
  */
 public interface UserMapper extends BaseMapper<User> {
 
+    User getUser(String accessKey);
+
 }
 
 

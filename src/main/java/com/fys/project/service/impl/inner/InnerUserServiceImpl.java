@@ -3,7 +3,6 @@ package com.fys.project.service.impl.inner;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.fys.project.common.ErrorCode;
 import com.fys.project.exception.BusinessException;
-import com.fys.project.mapper.UserInterfaceInfoMapper;
 import com.fys.project.mapper.UserMapper;
 import com.fys.ysapicommon.model.entity.User;
 import com.fys.ysapicommon.service.InnerUserService;
@@ -33,8 +32,10 @@ public class InnerUserServiceImpl implements InnerUserService {
         if(StringUtils.isAnyBlank(accessKey)){
             throw new BusinessException(ErrorCode.PARAMS_ERROR);
         }
-        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
-        queryWrapper.eq("accessKey",accessKey);
-        return userMapper.selectOne(queryWrapper);
+//        QueryWrapper<User> queryWrapper = new QueryWrapper<>();
+//        queryWrapper.eq("accessKey",accessKey);
+//        User user = userMapper.selectOne(queryWrapper);
+        User user = userMapper.getUser(accessKey);
+        return user;
     }
 }

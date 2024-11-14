@@ -25,4 +25,9 @@
         userPassword,accessKey,secretKey,createTime,updateTime,
         isDelete
     </sql>
+    <select id="getUser" resultType="com.fys.ysapicommon.model.entity.User">
+        select *
+        from user
+        where accessKey = #{accessKey}
+    </select>
 </mapper>
