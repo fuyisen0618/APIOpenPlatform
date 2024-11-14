@@ -43,7 +43,7 @@ public class Ysapiclient {
         //可以单独传入http参数，这样参数会自动做URL编码，拼接在URL中
         HashMap<String, Object> paramMap = new HashMap<String, Object>();
         paramMap.put("name", name);
-        String result= HttpUtil.get(GATEWAY_HOST+"/api/name/", paramMap);
+        String result= HttpUtil.get(GATEWAY_HOST+"/api/name/get", paramMap);
         return result;
     }
 
